@@ -1,9 +1,9 @@
 function sum(numberOne , numberTwo) {
     if(numberOne > numberTwo) {
-        console.log(numberOne)
+        return(numberOne)
     }else{
-        console.log(numberTwo)
+        return(numberTwo)
     }
   };
 
-  console.log(sum(5,1));
+  console.log(sum(6,3));
